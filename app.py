@@ -78,8 +78,8 @@ def collect_data() -> dict:
     return {
         "name": name_var.get().strip(),
         "email": email_var.get().strip(),
-        "age": age_var.get(),
-        "newsletter": newsletter.get()
+        "ProductID": ProductId_var.get(),
+        "Description": Description.get()
         }
     
     #6. Post the JSON to the API and Validate
